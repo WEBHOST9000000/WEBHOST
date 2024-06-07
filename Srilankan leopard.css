@@ -1,0 +1,26 @@
+/* Styles for venues section */
+.venues {
+    margin-top: 50px;
+  }
+  
+  /* Styles for threats section */
+  .leopard-threats {
+      margin-top: 20px;
+      
+  }
+  
+  
+  
+  .leopard-threats img {
+      width: 500px;
+      height: auto;
+      margin-right: 20px;
+      float:center;
+      
+  }
+  
+  .threats-threats  p {
+      margin-top: 0;
+      margin-bottom: 10px;
+  }
+   

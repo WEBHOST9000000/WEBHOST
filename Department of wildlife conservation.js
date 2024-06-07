@@ -1,0 +1,88 @@
+//Declare variable 
+const wildlife = [
+    {
+        "metadata": {
+          "title": "Department of wildlife conservation",
+          "charset": "utf-8",
+          "viewport": "width=device-width, initial-scale=1.0",
+          "favicon": {
+            "apple_touch_icon": "/apple-touch-icon.png",
+            "favicon_32x32": "/favicon-32x32.png",
+            "favicon_16x16": "/favicon-16x16.png",
+            "manifest": "/site.webmanifest",
+            "mask_icon": "/safari-pinned-tab.svg",
+            "msapplication_tile_color": "#da532c",
+            "theme_color": "#ffffff"
+          }
+        },
+        "navigation_links": [
+          { "text": "Home", "url": "index.html", "active": true },
+          { "text": "Srilankan wildlife", "url": "Srilankan wildlife.html" },
+          { "text": "Department of wildlife conservation", "url": "Department of wildlife conservation.html" },
+          { "text": "Srilankan leopard", "url": "Srilankan leopard.html" },
+          { "text": "Animals in Srilanka", "url": "Animals in Srilanka.html" },
+          { "text": "Yala national park", "url": "Yala national park.html" },
+          { "text": "Wilpattu national park", "url": "Wilpattu national park.html" }
+        ],
+        
+            "wildlife_conservation": {
+              "title": "Wildlife conservation of Srilanka",
+              "content": [
+                {
+                  "text": "In the subsequent years, after a concentrated effort, protectionists of the country managed to see a proclamation which prohibited the export of deer hides for trade. Further, it was decided to employ paid watchers within selected and well-defined localities, to put a stop to the illegal practice of killing wild animals."
+                },
+                {
+                  "text": "Around the turn of the century, on the advice of the Conservator of Forests, two vast stretches of uninhabited country for experimental purposes, Yala an area of 160 sq. miles between Menik Ganga and Kumbukkan Oya and Wilpattu – an area of 256 sq. miles in the North-Western and North Central provinces, were proclaimed as Reserves under the Forest Ordinance."
+                },
+                {
+                  "text": "Ceylons new constitution of 1930 placed the administration of the forests and ‘all that they contain’ under the Minister of Agriculture and Lands, who appointed a Committee, known as the Fauna and Flora Protection Committee, to examine and report on the local situation. In their report, the Committee urged the necessity for early selection and reservation of additional areas for the protection and preservation of the indigenous fauna and flora. Recommendations of this committee resulted in the Fauna and Flora Protection Ordinance, No. 2 of 1937. In the subsequent times, under the legal provisions of this Ordinance, suitable areas were identified and declared as wildlife reserves. Forest Department was provided with the necessary funds to survey and demarcate these areas and to meet the payment of the watchers engaged on protective work."
+                },
+                {
+                  "text": "Towards the end of the 1940s, the Government realized the necessity to establish a separate Department to enforce the Fauna and Flora Protection Ordinance and to manage the increasing number of wildlife reserves in the country. Accordingly, the Wildlife Department was established in October 1949. Conservator of Forests continued as the Acting Warden, until the new Wildlife Warden, Mr. C.W. Nicolas, was appointed on the 1st of October 1950."
+                },
+                {
+                  "text": "Within the first decade, cadre of the department was gradually expanded and deployed to protect the wildlife protected areas in the country. New wildlife Protected Areas in the GalOya basin and the Yala Block II also were declared."
+                }
+              ]
+            },
+        
+          
+        "image_sources": [
+          { "src": "./images/img1.jpg" },
+          { "src": "./images/img2.jpeg" },
+          { "src": "./images/img5.png" },
+          { "src": "./images/protectedareas.png" },
+          { "src": "./images/protecvtedareas.png" }
+        ],
+        "map_iframe_source": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63374.158774666525!2d79.85085330285597!3d6.904362482224375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705608761097!5m2!1sen!2slk",
+        "footer_links": [
+          { "text": "Privacy policy", "url": "#" },
+          { "text": "Terms of use", "url": "#" }
+        ],
+        "social_icons": [
+          { "icon_class": "fa fa-twitter", "url": "#" },
+          { "icon_class": "fa fa-linkedin", "url": "#" },
+          { "icon_class": "fa fa-twitch", "url": "#" },
+          { "icon_class": "fa fa-github", "url": "#" },
+          { "icon_class": "fa fa-youtube", "url": "#" }
+        ],
+        "copyright": "&copy;2021 Iresh tourism industry."
+      }
+
+
+      
+      
+]
+// Convert the JSON data to a string
+const jsonDataString = JSON.stringify(wildlife);
+
+// Store the JSON data in localStorage
+localStorage.setItem('wildlife', jsonDataString);
+
+// Check if the data is stored correctly
+const storedData = localStorage.getItem('wildlife');
+if (storedData) {
+  console.log('Data stored in localStorage successfully.');
+} else {
+  console.error('Error storing data in localStorage.');
+}  

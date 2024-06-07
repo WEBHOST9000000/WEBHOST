@@ -1,0 +1,19 @@
+{
+    "users" : [
+        {
+        "Username":  "admin",
+         "Password ":"web!@",
+         "role":"admin",
+         "email" :"web@admin.com"
+
+        },
+
+        {
+         "Username":  "user",
+         "Password ":"web!@900",
+         "role":"user",
+         "email" :"web@admin.com"
+
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+.hero-container {
+  position: relative;
+}
+
+.hero-image {
+  background: url('./images/image\ -minneriya\ national\ park.jpg') center/cover; 
+  height: 500px; 
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; 
+  padding: 20px; 
+  width: 80%; 
+  background: rgba(0, 0, 0, 0.5); 
+}
+
+.hero-text h1,
+.hero-text p {
+  margin: 10px 0; 
+}
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+main{
+  
+    padding-top:left;
+    padding-left: 40px;
+    
+    padding-right: 60x;
+    
+    width:100%;
+   
+    font-size:20px ;
+  
+  }
+  
+   .section-img{
+    width:400px;
+    height: 200px;
+    display:flex;
+    margin-left:750px;
+    margin-bottom:0px;
+    padding-bottom:25px;
+    padding-top:5px;
+  
+  
+   }
+   section h2 {
+    color: #142681a3;
+    transition: color .2s;
+    align-items:center;
+    text-align: center;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px ;
+  }
+  
+  /* Change the color of the section headers on hover */
+  section h2:hover {
+    color: #666;
+  }
+  
+  /* Style the paragraphs */
+  section p {
+    
+    color: #666;
+    transition: color .2s;
+  }
+  
+  /* Change the color of the paragraphs on hover */
+  section p:hover {
+    color: #999;
+  }
+  
+
+  
+   .table{
+    
+    width:100%;
+    padding-left:20px;
+    margin: 90px;
+  
+    
+  
+   }
+  
+   .table th,.table td {
+    border: 1px solid gold;
+    padding:15px;
+  
+   }
+  
+   .table th{
+    background-color:aquamarine;
+    
+   }
+   .table tr{
+    width:20px;
+   }
+   .table img{
+    width:100%;
+    height:50px;
+   }
+  
+   .Table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tfoot {
+    font-weight:bold;
+    text-align: center;
+    width:100%;
+  }

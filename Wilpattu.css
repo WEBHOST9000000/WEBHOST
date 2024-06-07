@@ -1,0 +1,33 @@
+/* Responsive images */
+.responsive img {
+    width: 100%;
+    height: 500px;
+    display: block;
+   
+}
+section {
+    margin-bottom: 20px;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Italics for i tag */
+i {
+    font-style: italic;
+}
+
+/* Hover effect on sections */
+section:hover {
+    background-color: #25bb61d2;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect on links within sections */
+section a:hover {
+    color: #007BFF;
+
+}
+

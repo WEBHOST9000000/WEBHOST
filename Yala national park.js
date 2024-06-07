@@ -1,0 +1,74 @@
+const park1  =[
+    "metadata",{
+        "title": "Srilankan leopard",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "charset": "utf-8",
+        "favicon": {
+          "apple_touch_icon": "/apple-touch-icon.png",
+          "favicon_32x32": "/favicon-32x32.png",
+          "favicon_16x16": "/favicon-16x16.png",
+          "manifest": "/site.webmanifest",
+          "mask_icon": "/safari-pinned-tab.svg",
+          "msapplication_tile_color": "#da532c",
+          "theme_color": "#ffffff"
+        }
+      },
+
+
+
+
+
+
+
+
+
+    "main_content",{
+      "about_yala_national_park": {
+        "description": "Explore Yala National Park, the second-largest and most visited national park in Sri Lanka. Covering 378 sq miles, the park is situated 260km southeast of Colombo, offering a dry climate year-round. Accessible from various routes, including Colombo, Kandy, Galle, and Arugam Bay, Yala features dense jungle, unspoiled beaches, freshwater lakes, and rivers.",
+        "ecosystems": "Yala's diverse ecosystems, such as moist and dry monsoon forests, thorn forests, grasslands, wetlands, and beaches, provide a habitat for 44 mammal species.",
+        "notable_species": "The park hosts a herd of about 350 Asian Elephants, Leopards, Sloth Bears, Wild Water Buffaloes, Toque Macaques, Golden Palm Civets, Red Slender Lorises, and the endangered Fishing Cat. With 47 reptile species, 18 amphibians, and 215 bird species, Yala is a paradise for wildlife enthusiasts."
+      },
+      "visitor_tips": [
+        {
+          "tip": "Discover essential facts about Yala National Park before your visit. As the second-largest wildlife park in Sri Lanka, Yala consists of five blocks, each with individual names.",
+          "suggestion": "For a more peaceful wildlife experience, consider visiting on weekdays to avoid weekend and holiday crowds."
+        }
+      ],
+      "wildlife_at_yala": {
+        "description": "Witness the 'Big Four' of Sri Lanka at Yala National Park: Elephants, Leopards, Sloth Bears, and Wild Buffaloes. The park is home to herds of elephants, various deer species, monkeys, buffaloes, and a variety of birds. Don't miss the chance to spot mugger crocodiles and saltwater crocodiles."
+      }
+    },
+    "slideshow_images", [
+      "./images/leopard2.jpg",
+      "./images/crocodile.jpg",
+      "./images/birds.jpeg"
+    ],
+    "footer_links", [
+      { "text": "Privacy policy", "url": "#" },
+      { "text": "Terms of use", "url": "#" }
+    ],
+    "social_icons",[
+      { "icon_class": "fa fa-twitter", "url": "#" },
+      { "icon_class": "fa fa-linkedin", "url": "#" },
+      { "icon_class": "fa fa-twitch", "url": "#" },
+      { "icon_class": "fa fa-github", "url": "#" },
+      { "icon_class": "fa fa-youtube", "url": "#" }
+    ],
+    "copyright", "&copy;2021 Iresh tourism industry."
+
+]
+
+
+// Convert the JSON data to a string
+const jsonDataString = JSON.stringify(park1);
+
+// Store the JSON data in localStorage
+localStorage.setItem('park1', jsonDataString);
+
+// Check if the data is stored correctly
+const storedData = localStorage.getItem('park1');
+if (storedData) {
+  console.log('Data stored in localStorage successfully.');
+} else {
+  console.error('Error storing data in localStorage.');
+}  
